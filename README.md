@@ -15,17 +15,16 @@ Educational project demonstrating pointer concepts in C++, including:
 - Visual Studio Code (optional)
 - Docker (for container development)
 
-## Quick Start
+# Quick Start
 
-### Local Build (macOS)
+## Build
 ```bash
-# Install prerequisites
-brew install cmake llvm
-
-# Build project
 mkdir build && cd build
 cmake ..
 make
+```
 
-# Run
+## Run
+```bash
 ./pointer_demo
+```
